@@ -884,6 +884,16 @@ li{
     position: absolute;
     margin-top: -90px;
 }
+.cases-work-text h6{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.cases-work-text p{
+    color:grey;
+    text-transform: capitalize;
+}
 .cases-text h6{
     font-size: 20px;
     font-weight: 600;
