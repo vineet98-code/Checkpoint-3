@@ -411,12 +411,12 @@ h5{
     padding: 0 82px;
 }
 .news-para{
-    padding: 30px;
+    padding: 21px;
     background-color: #FCFDFF;
 }
 .news-para p{
     text-transform: capitalize;
-    margin:10px 10px;
+    margin:12px 0px;
 }
 
 .recent-col{
@@ -480,10 +480,11 @@ h5{
     margin-bottom: 0.5rem;
     text-transform: capitalize;
 }
-
 .flex-80{
-    flex: 0 1 80%;
+    flex: 0 1 89%;
     margin-right: 10px;
+    /* display: flex; */
+    align-items: flex-start;
 }
 .call-request-form input::placeholder { 
     background-color: transparent;
@@ -623,8 +624,10 @@ strong{
     padding-bottom: 4em;
 }
 .blog-container{
-    width:65%;
+    width:50%;
     padding-right: 2%;
+    margin-left: 200px;
+    /* background-color: #FFFFFF; */
 }
 .blog-article h6{
     font-size: 20px;
@@ -634,8 +637,8 @@ strong{
     border-bottom: 1px solid rgb(221, 220, 220);
 }
 .blog-article p{
-    font-weight: 100;
     padding-bottom: 1em;
+    color: grey;
 }
 .content-blog{
     margin-bottom: 1.6em;
@@ -649,7 +652,6 @@ strong{
 .h1-blog{
     text-align: center;
     color: #fff;
-    
 }
 .blog-wrapper{
     align-items: flex-start;
@@ -671,17 +673,42 @@ strong{
     text-align: center;
 }
 .blog-article{
-  background-color: #D5E6FD;
+  background-color: #f9f9f9;
   padding: 30px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .flex-30{
     flex: 0 1 30%;
 }
+.small-box{
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60px;
+    height:60px;
+    border: 2px solid #D5E6FD;
+    background-color: #fff;
+    margin-right: 10px;
+    color: grey;
+}
+.two{
+   background-color: #f5f9ff;
+}
+.box-1 i{
+    color: grey;
+}
 /* ASIDE */
+.blog-search{
+    width:25%;
+}
 .container-search{
-    background-color: #D5E6FD;
+    background-color: #F8FAFE;
     width:100%;
-    padding: 75px;
+    padding: 38px;
 }
 .search-btn{
     font-size: 16px;
@@ -700,7 +727,7 @@ strong{
 }
 .aside-hr{
     width:100%;
-    color:grey;
+    color:#f9f9f9;
     margin: 10px 0;
 }
 .form-blog input{
@@ -727,7 +754,7 @@ strong{
 .category{
     width:100%;
     padding: 36px; 
-    background-color: #D5E6FD;  
+    background-color: #F8FAFE;  
     margin-top: 18px;
 }
 ul{
@@ -743,7 +770,7 @@ li{
 .recent-post{
     width:100%;
     padding: 36px; 
-    background-color: #D5E6FD;
+    background-color: #F8FAFE;
     margin-top: 18px
 }
 .post{
@@ -767,10 +794,9 @@ li{
 }
 /* TAG CLOUDS */
 .tag-clouds{
-    width:370px;
-    height:280px;
+    
     padding: 36px;
-    background-color: #D5E6FD;
+    background-color: #F8FAFE;
     margin-top: 18px;
 }
 .tag-clouds span{
@@ -785,10 +811,8 @@ li{
 }
 /* INSTAGRAM FEED */
 .instagram-feed{
-    width:370px;
-    height:310px;
-    padding: 36px;
-    background-color: #D5E6FD;
+    padding: 23px;
+    background-color: #F8FAFE;
     margin-top: 18px; 
 }
 .blog-img{
@@ -797,9 +821,9 @@ li{
 /* NEWSLETTER */
 .newsletter{
     width:100%;
-    background-color: #D5E6FD;
+    background-color: #F8FAFE;
     margin-top: 20px;
-    padding: 75px; 
+    padding: 29px; 
 }
 .newsletter-blog{
     margin-top: 15px; 
@@ -834,8 +858,16 @@ li{
     text-align: center;
     color: #fff;
 }
+.cases-page{
+    width:65%;
+    padding: 64px 0px;
+    margin-left: 305px;
+}
 .cases{
-    padding: 64px;
+    width:80%;
+    padding: 64px 0px;
+    /* margin-left: 300px; */
+    margin: auto;
 }
 .cases-work-content img{
    width: 100%; 
@@ -873,20 +905,23 @@ li{
 .map iframe{
     display: block;
 
-  width:85%;
+  width:73%;
   /* margin:90px 0; */
-  margin: 50px auto;
+  margin: 50px 205px;
 }
 .get-in-touch h6{
     font-size:30px;
     text-transform: capitalize;
     font-weight:700;
     margin-bottom:10px;
-    margin-left: 95px;
+    margin-left: 200px;
+}
+.contact-form{
+    margin-left: 110px;
 }
 .get-in-touch-form{
     
-    /* width:85%; */
+    width:67%;
     flex-wrap: wrap;
     /* margin-top: 20px; */
     margin-left: 95px;
@@ -921,6 +956,7 @@ li{
 .address-info{
     display: flex;
     align-items: flex-start;
+    margin-left: 80px;
 }
 .address-items{
     margin-bottom: 20px;
