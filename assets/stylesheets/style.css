@@ -158,7 +158,6 @@ body{
 address{
     font-size: 16px;
     text-transform: capitalize;
-    /* margin-left: 10px; */
     color: #fff;
 }
 .message{
@@ -192,7 +191,6 @@ address{
     background: url(../media/hero/h1_hero.jpg) center center no-repeat;
     background-size: cover;
     height: 100vh;
-
 }
 .hero-text{
     color:#FD777C;
@@ -205,7 +203,6 @@ h1{
     color:#012D5B;
     font-weight: 1000;
     margin-bottom: 48px;
-    /* margin-right: 140px; */
 }
 /* TEAM-SECTION  */
 .team{
@@ -217,7 +214,6 @@ h1{
 .article-col{
     margin-left:4px;
     margin-right: 17px;
-    
 }
 .article-col p{
     text-transform: capitalize;
@@ -226,9 +222,7 @@ h1{
 }
 .border-red{
     border: 3px solid #FD777C;
-    /* margin-right:39px; */
     padding: 16px;
-    
     margin-left: 6px;
     line-height: 1.4;
     background-color: #FFFFFF;
@@ -246,16 +240,13 @@ h1{
 .flex1{
     display: flex;
 }
-
 .flex-27{
     flex:1 1 27%;
 }
-
 .chevron i{
     color: #393939;
     margin-top: 18px;
     margin-left: 7px;
-
 }
 .h2{
     font-size: 37px;
@@ -319,7 +310,7 @@ h4{
     text-align: center;
     background-color:#FCFDFF;
     margin-left: 22px;
-    /* border: 1px solid red;  */
+    
 }
 .col i {
     font-size: 40px;
@@ -406,9 +397,11 @@ h5{
 /* RECENTS NEWS SECTION  */
 .news{
     padding: 0 200px;
+    
 }
 .news-content {
-    padding: 0 82px;
+    padding: 0px 15px;
+    margin-left: 68px;
 }
 .news-para{
     padding: 21px;
@@ -483,7 +476,6 @@ h5{
 .flex-80{
     flex: 0 1 89%;
     margin-right: 10px;
-    /* display: flex; */
     align-items: flex-start;
 }
 .call-request-form input::placeholder { 
@@ -572,7 +564,6 @@ margin:18px 0px;
 .flex-19{
     flex: 0 1 30%;
     line-height: 1.5;
-    /* margin-right: 20px; */
 }
 .address-footer{
     margin-bottom: 70px;
@@ -581,7 +572,6 @@ margin:18px 0px;
 .col-2{
     text-transform: capitalize;
     color:grey;
-    /* line-height: 0.5; */
     margin-bottom: 25px ;
     padding: 0 30px;
     margin-right: 10px;
@@ -627,7 +617,7 @@ strong{
     width:50%;
     padding-right: 2%;
     margin-left: 200px;
-    /* background-color: #FFFFFF; */
+    
 }
 .blog-article h6{
     font-size: 20px;
@@ -898,7 +888,6 @@ li{
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
-    /* padding-bottom: .5em;  */
 }
 .cases-text p{
     font-weight: 100;
@@ -914,8 +903,7 @@ li{
 }
 .map iframe{
     display: block;
-
-  width:73%;
+    width:73%;
   /* margin:90px 0; */
   margin: 50px 205px;
 }
