@@ -138,13 +138,13 @@ body{
     background-color: #FD656B;
 }
 .padding{
-    padding: 100px 0;
+    padding: 40px 0;
 }
 /* header-ribbon */
 .header-ribbon{
     width: 100%;
     background-color: #012D5B;
-    padding: 16px 0;
+    /* padding: 16px 0; */
 }
 address{
     font-size: 16px;
@@ -179,6 +179,7 @@ address{
     background: url(../media/hero/h1_hero.jpg) center center no-repeat;
     background-size: cover;
     height: 90vh;
+
 }
 .hero-text{
     color:#FD777C;
@@ -418,6 +419,7 @@ margin-left:100px;
     border: none;
     border: 1px solid #295684;
     border-radius: 4px;
+    color: #fff;
 }
 .request-form select{
     background: none;
@@ -429,7 +431,9 @@ margin-left:100px;
     width: 100%;
     display: block;
     margin-bottom: 0.5rem;
+    text-transform: capitalize;
 }
+
 .flex-80{
     flex: 0 1 80%;
     margin-right: 10px;
@@ -472,6 +476,7 @@ margin-left:100px;
 }
 .footer-col{
     margin-left: 80px;
+    
 }
 .flex-19 p{
 color:grey;
@@ -490,13 +495,11 @@ margin:20px 0;
 }
 .line{
     width:85%;
-    margin-top: 30px;
     margin-bottom: 30px;
     margin-left:80px;
     background-color:#D5E6FD;
     height:1px;
 }
-
 .flex-19{
     flex: 0 1 19%;
     line-height: 1.5;
@@ -522,7 +525,6 @@ small{
     text-transform: capitalize;
     margin-top: 40px;
 }
-
 strong{
     color:#FD656B;
     text-transform: capitalize;
@@ -541,7 +543,9 @@ strong{
     background-size: cover;
     height: 30vh;
     position: relative;
-    
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .blog{
     padding-top: 4em;
@@ -559,9 +563,9 @@ strong{
     border-bottom: 1px solid rgb(221, 220, 220);
 }
 .blog-article p{
-        font-weight: 100;
-        padding-bottom: 1em;
-    }
+    font-weight: 100;
+    padding-bottom: 1em;
+}
 .content-blog{
     margin-bottom: 1.6em;
 }
@@ -673,7 +677,6 @@ li{
 .post{
     display: flex;
     align-items: center;
-    
 }
 .post-title{
     margin-left: 15px;
@@ -690,7 +693,6 @@ li{
 .blog-date{
     margin-top: 10px;
 }
-
 /* TAG CLOUDS */
 .tag-clouds{
     width:370px;
@@ -726,17 +728,16 @@ li{
     background-color: #D5E6FD;
     margin-top: 20px;
     padding: 75px; 
-    
 }
 .newsletter-blog{
     margin-top: 15px; 
 }
 .newsletter-blog input{
-         padding: 1em;
-        margin-bottom: 2em;
-        width: 100%;
-        border: 1px solid rgb(245, 241, 241);
-        background: #fff;
+    padding: 1em;
+    margin-bottom: 2em;
+    width: 100%;
+    border: 1px solid rgb(245, 241, 241);
+    background: #fff;
 }
 .subscribe-btn{
     font-size: 16px;
@@ -753,6 +754,9 @@ li{
     background: url(../media/hero/cases_hero.jpg) center center no-repeat;
     background-size: cover;
     height: 30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .h1-blog{
     text-align: center;
@@ -784,17 +788,84 @@ li{
 }
 .cases-text p{
     font-weight: 100;
-    /* padding-bottom: 1em;   */
 }
 /* CONTACT PAGES */
 .hero-contact{
     background: url(../media/hero/contact_hero.jpg) center center no-repeat;
     background-size: cover;
     height: 30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .map iframe{
-  width:100%;
-  margin:90px 0;
+    display: block;
+
+  width:85%;
+  /* margin:90px 0; */
+  margin: 50px auto;
+}
+.get-in-touch h6{
+    font-size:30px;
+    text-transform: capitalize;
+    font-weight:700;
+    margin-bottom:10px;
+    margin-left: 95px;
+}
+.get-in-touch-form{
+    
+    /* width:85%; */
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+    margin-left: 95px;
+}
+.get-in-touch-form textarea {
+    width:100%;
+    height:15vh;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.get-in-touch-form input{
+    width:48%;
+    padding:15px;
+    /* margin-right: 17px; */
+    margin-bottom: 20px;
+}
+.justify-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.get-in-touch-form .subject-input{
+    width:100%;
+}
+.send-btn{
+    /* display: block; */
+    background-color: transparent;
+    text-transform:uppercase;
+    color:#FD656B;
+    border: 2px solid #fd656b;
+}
+/* ASIDE CONTACT */
+.address-info{
+    display: flex;
+    align-items: flex-start;
+}
+.address-items{
+    margin-bottom: 20px;
+}
+.address-items i{
+    font-size:20px;
+    padding-left: 30px;
+}
+.address-items p{
+    padding-left: 20px;
+}
+.address-item p span {
+    color: grey;
+    font-size: 12px;
+}
+.flex-start{
+    align-items: flex-start;
 }
 
 /* ABOUT PAGES */
@@ -802,6 +873,9 @@ li{
     background: url(../media/hero/about_hero.jpg) center center no-repeat;
     background-size: cover;
     height: 30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
