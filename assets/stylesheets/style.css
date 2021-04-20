@@ -59,6 +59,7 @@ body{
     line-height: 1.2;
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
+    /* background-color: #efefef; */
 }
 /* Variable */
 .root{
@@ -70,7 +71,7 @@ body{
     margin: 0 auto;
     width:100%;
     padding: 30px 20px;
-    margin: 2px solid red;
+
 }
 .container{
     max-width: 1300px;
@@ -83,13 +84,16 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.flex1{
+    display: flex;
+}
+.flex-27{
+    flex:1 1 27%;
+}
 .flex{
     display:flex;
     justify-content: space-between;
     align-items: center;
-}
-.flex-1 {
-    display: flex;
 }
 .align-center{
     display: flex;
@@ -177,7 +181,8 @@ address{
 
 .nav-bar{
     margin-left: 370px;
-    padding: 16px 0;
+    padding: 24px 0;
+    vertical-align: middle;
 }
 .nav-bar li a {
     font-size: 16px;
@@ -190,7 +195,7 @@ address{
 .hero{
     background: url(../media/hero/h1_hero.jpg) center center no-repeat;
     background-size: cover;
-    height: 100vh;
+    padding: 100px 0;
 }
 .hero-text{
     color:#FD777C;
@@ -237,12 +242,7 @@ h1{
     text-transform: capitalize;
     margin: 16px 0px;
 }
-.flex1{
-    display: flex;
-}
-.flex-27{
-    flex:1 1 27%;
-}
+
 .chevron i{
     color: #393939;
     margin-top: 18px;
@@ -297,7 +297,7 @@ h4{
     text-transform: capitalize;
     font-size: 36px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     text-align: center;
 }
 .col p{
@@ -310,7 +310,6 @@ h4{
     text-align: center;
     background-color:#FCFDFF;
     margin-left: 22px;
-    
 }
 .col i {
     font-size: 40px;
@@ -338,6 +337,7 @@ h4{
 .cases{
     background-color: #F8FAFE;
 }
+
 .cases-text{
     text-transform: capitalize;
     font-size:16px;
@@ -385,11 +385,16 @@ h4{
 }
 
 .flex-37{
-    margin: 0 130px;
+    margin: 30px 130px;
 }
-h4{
+.view-profile{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    margin-top:14px;
+
 }
 h5{
     margin-top: 16px;
@@ -448,7 +453,6 @@ h5{
     margin-right: 1em;
     margin-top: 10px;
 }
-
 .request-form input{
     background: none;
     border: none;
@@ -482,7 +486,6 @@ h5{
     background-color: transparent;
     opacity: 1;     
 }
- 
 .btn-div{
     text-align: right;
 }
@@ -524,9 +527,7 @@ h5{
 .footer{
     background-color: #F8FAFE;
 }
-.flex1{
-    display:flex;
-}
+
 .footer-col{
     margin-left: 80px;
 }
@@ -576,6 +577,11 @@ margin:18px 0px;
     padding: 0 30px;
     margin-right: 10px;
 }
+
+.footer-a a{
+    text-decoration: none;
+    color:grey;
+}
 .h7{
   font-size: 16px;
   font-weight: 800;
@@ -617,7 +623,6 @@ strong{
     width:50%;
     padding-right: 2%;
     margin-left: 200px;
-    
 }
 .blog-article h6{
     font-size: 20px;
@@ -753,7 +758,6 @@ ul{
 li{
     font-size:16px;
     margin-top: 10px;
-    /* margin-bottom: 18px; */
     text-transform: capitalize;
 }
 /* Recent post */
@@ -853,8 +857,11 @@ li{
     padding: 64px 0px;
     margin-left: 305px;
 }
+.cases-main{
+    background-color: #efefef;
+}
 .cases{
-    width:80%;
+    width:100%;
     padding: 64px 0px;
     /* margin-left: 300px; */
     margin: auto;
@@ -870,9 +877,10 @@ li{
 .cases-work-text{
     width:80%;
     padding: 16px;
-    background-color: #efefef;
+    background-color: #fff;
     position: absolute;
-    margin-top: -90px;
+    margin-top: -106px;
+    border:rgba(0, 0, 0, 0.2);
 }
 .cases-work-text h6{
   font-size: 20px;
@@ -912,13 +920,12 @@ li{
     text-transform: capitalize;
     font-weight:700;
     margin-bottom:10px;
-    margin-left: 200px;
+    margin-left: 205px;
 }
 .contact-form{
     margin-left: 110px;
 }
 .get-in-touch-form{
-    
     width:67%;
     flex-wrap: wrap;
     /* margin-top: 20px; */
@@ -972,6 +979,15 @@ li{
 }
 .flex-start{
     align-items: flex-start;
+}
+/* SERVICES PAGE */
+.hero-service{
+    background: url(../media/hero/services_hero.jpg) center center no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ABOUT PAGES */
